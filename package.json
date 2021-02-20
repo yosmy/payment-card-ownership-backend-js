@@ -1,0 +1,23 @@
+{
+  "name": "@yosmy/payment-card-ownership-backend",
+  "version": "0.1.0",
+  "main": "build/index.js",
+  "dependencies": {
+    "@yosmy/resolution": "git+https://github.com/yosmy/resolution-js.git",
+    "@yosmy/ui": "git+https://github.com/yosmy/ui-js.git",
+    "prop-types": "15.7.2",
+    "react": "17.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.12.10",
+    "@babel/core": "7.12.10",
+    "@babel/plugin-proposal-class-properties": "7.12.1",
+    "@babel/plugin-proposal-export-default-from": "7.12.1",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "7.12.1",
+    "@babel/plugin-proposal-object-rest-spread": "7.12.1",
+    "@babel/plugin-proposal-optional-chaining": "7.12.7",
+    "@babel/plugin-transform-flow-strip-types": "7.12.10",
+    "@babel/plugin-transform-react-jsx": "7.12.12",
+    "@babel/preset-env": "7.12.11"
+  }
+}
